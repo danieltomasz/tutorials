@@ -1,9 +1,9 @@
-The presentation is based on the officials HPC-Ghent [tutorial](
-http://users.ugent.be/~kehoste/hpcugent-intro-20171110.pdf)
-and general HPC manual  (choose [„linux”](http://hpcugent.github.io/vsc_user_docs/pdf/intro-HPC-linux-gent.pdf) with [„windows”](http://hpcugent.github.io/vsc_user_docs/pdf/intro-HPC-windows-gent.pdf) or [„mac”](http://hpcugent.github.io/vsc_user_docs/pdf/intro-HPC-linux-gent.pdf) to get tutorial fo your OS)
+The presentation is based on the  HPC-Ghent [tutorial](
+http://users.ugent.be/~kehoste/hpcugent-intro-20171110.pdf) made by HPC administrators
+and general HPC manual  (choose [„linux”](http://hpcugent.github.io/vsc_user_docs/pdf/intro-HPC-linux-gent.pdf) with [„windows”](http://hpcugent.github.io/vsc_user_docs/pdf/intro-HPC-windows-gent.pdf) or [„mac”](http://hpcugent.github.io/vsc_user_docs/pdf/intro-HPC-linux-gent.pdf) to get tutorial fo your OS) which I higly recommend to read/consult.
 
 
-I as specifically using  the  information from these chapters from the manual:
+I used the  information from the following  chapters:
 
 + 1/ Introduction to HPC
 + 2/ Getting an HPC Account
