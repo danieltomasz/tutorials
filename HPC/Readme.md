@@ -5,11 +5,11 @@ and general HPC manual  (choose [„linux”](http://hpcugent.github.io/vsc_user
 
 I as specifically using  the  information from these chapters from the manual:
 
-1/ Introduction to HPC
-2/ Getting an HPC Account
-3/ Connecting to the HPC
-4/ Running batch jobs
-6/ Running  jobs  with  input/output data
++ 1/ Introduction to HPC
++ 2/ Getting an HPC Account
++ 3/ Connecting to the HPC
++ 4/ Running batch jobs
++ 6/ Running  jobs  with  input/output data
 
 
 Remember, at the end of manual you could find HPC Quick Reference Guide with  most needed HPC and linux command in one place.
