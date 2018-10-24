@@ -1,0 +1,81 @@
+---
+title: "Topics for dream/sleep analysis reasearch"
+output: html_document
+bibliography: sleepbiblio.bib
+
+---
+
+
+## Dreams content analysis
+
+Dream content analysis is one of the basic methods applied in psychological dream research[@klosch2014dream]. Changes to normal dream content could be related  associated with specific psychological disorders, including depression, schizophrenia, and personality  disorder.
+
+The  history of systematic and quantitative reasearch on dream content could be dated back to 40' (https://dreams.ucsc.edu/Info/content_analysis.html); leaving apart psychoanalitic aproach which  focused on dream interpretations. One of the  systematic approach is [@hall1966content]
+
+```
+The Hall/Van De Castle system in effect treats a dream report as a story or play in which there are:
+
+  *  A cast of characters (animals, men and women, friends, strangers)
+  *  A series of social interactions (aggression, friendliness, sexuality)
+  * Activities (thinking, talking, running)
+  *  Successes and failures
+  *  Misfortunes and good fortunes
+  *  Emotions (happy, sad, embarrassed)
+  *  One or more settings (indoors vs. outdoors, familiar vs. unfamiliar)
+  * Objects (chairs, cars, streets, body parts)
+  *  Descriptive modifiers (tall, fast, crooked)
+  *  Temporal references
+  *  Elements from the past
+  * Food and eating references
+
+There are almost no elements in a dream report that cannot be classified somewhere, and some fit into more than one category (e.g., hugging someone is both a friendly interaction and a physical activity). Then, too, parts of categories can be used, or two or more categories can be combined to create new indicators (e.g., the degree to which the dreamer initiates aggressive, friendly, and sexual interactions, as opposed to being the recipient of such actions, can be thought of an a measure of "assertiveness" in dream reports). (source: https://dreams.ucsc.edu/Info/content_analysis.html)
+```
+
+The field of dream content research doesnt use extensively machine learning and text mining techniques yet, implementing it could lead to better and more automatic assesment.
+
+The introduction to  problems in dream content analysis could be found [@schredl2018dream]
+
+
+The idea for the project is to:
+* check if there is continuity in one individual's dreams over time (also propose methodology for evaluating that)
+* eveluate  relationship between d dream reports (i.e., the reports obtained following periods of sleep) and waking concerns (using transcript of day activities)
+* extract structure and topics present in the dreams
+
+Semantic similarity between these sets of verbal reports could be computed from WordNet (WordNet, a database of semantically disambiguated word senses) using tools included in the Natural Language Toolkit (NLTK) for Python or pretrained word embeddings to represent text information, such as word2vec (Mikolov et al., 2013) or GloVe (Pennington et al., 2014).
+
+Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013). Efficient estimation of word representations in vector space. ArXiv Prepr. ArXiv13013781.
+Pennington, J., Socher, R., and Manning, C.D. (2014). Glove: Global vectors for word representation. In EMNLP, pp. 1532–1543.
+
+
+It will also be interesting to see whether we will be able to retrieve more high-level semantic features from the text input.
+
+
+
+
+## Dreams, sleep and memory
+
+
+### spindles
+* more and more papers about memory reactivation and it strong relationship with spindles.
+* project will involve investigating changes  in EEG  signal after stimuli presentation (given in which stage of sleep the stimuli was presented)
+* could we relate these changes to current status of our knowledge?
+
+### related papers
+Targeted memory reactivation during sleep elicits neural signals related to learning content
+Boyu Wang, James Antony, Sarah Lurie, Paula P Brooks, Ken A Paller, Kenneth A Norman
+doi: https://doi.org/10.1101/449389 
+Dreaming in NREM sleep: a high-density EEG study of slow waves and spindles
+Francesca Siclari, Giulio Bernardi, Jacinthe Cataldi and Giulio Tononi
+http://www.jneurosci.org/content/early/2018/09/10/JNEUROSCI.0855-18.2018
+
+
+### theta and alpha oscillations during sleep  &&  relation to dream recall
+Recalling and Forgetting Dreams: Theta and Alpha Oscillations during Sleep Predict Subsequent Dream Recall
+http://www.jneurosci.org/content/31/18/6674?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNeurosci_TrendMD_0
+
+
+### Two open  datasets 80 days in dreams & 101 dreams
+
+More info:
+[101 nights project site ](http://dreamsessions.org/101nights.html)
+[Brainhack project presentation](https://www.slideshare.net/gdumas/101nights-brainhack-networks)
